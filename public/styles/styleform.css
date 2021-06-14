@@ -1,0 +1,85 @@
+body {
+ font-family:"trebuchet ms",sans-serif;
+ background-color:#34393E;
+ }
+form {
+ margin:auto;
+ background-color:#FAFAFA;
+ padding:20px;
+ width:800px;
+}
+.couleur_texte
+{
+color: red;
+background-color: gold;
+font-weight:bold;
+
+}
+.couleur_text
+{
+ color: red;
+
+
+}
+.titre {
+ font-weight:bold;
+ font-size:30px;
+ text-align:center;
+ margin-bottom:20px;
+ color:#34393E;
+}
+fieldset {
+    text-align: left;
+ padding:20px; 
+  margin-bottom:10px;
+ }
+ fieldset.sansBordure {
+ padding:5px;
+ border-style:none;
+ }
+legend {
+ color:#a0522d;
+ font-weight:bold
+ }
+label {
+ width:120px;
+ display:block;
+ float:left;
+ }
+label.enligne {
+ display:inline;
+ float:none;
+ }
+input {
+ border:1px solid black;
+ background-color:#A6BEDE;
+ margin-bottom:15px;
+ }
+input[type=text],input[type=password] {
+ width:200px;
+ }
+ input[type=checkbox] {
+ margin-top:10px;
+ }
+ input[type=submit] {
+ width:200px;
+ height : 60px;
+ font-size:13px;
+ font-weight:bold;
+ margin-top:20px;
+ } 
+.message-ok{
+ background:url(OK.png) 10px center no-repeat;
+ padding: 0 0 0 30px;
+ display:inline;
+ color:#8FCF3C;
+ font-weight:bold
+} 
+ 
+.message-erreur{
+ background:url(pasOK.png) 10px center no-repeat;
+ padding: 0 0 0 30px;
+ display:inline;
+ color:#B30202;
+} 
+
